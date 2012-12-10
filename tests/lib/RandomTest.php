@@ -6,4 +6,9 @@ class RandomTest extends \PHPUnit_Framework_TestCase
     {
         $this->assertTrue(true);
     }
+
+    public function testThatFalseIsFalse()
+    {
+        $this->assertFalse(false);
+    }
 }
